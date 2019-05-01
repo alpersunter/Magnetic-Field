@@ -1,0 +1,46 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+        <script src="sketch.js"></script>
+        <script src="arrow.js"></script>
+        <script src="ball.js"></script>
+        <style>
+        body {
+          margin: 0;
+          padding: 0;
+        }
+    
+        canvas {
+          display: block;
+        }
+    
+        #info {
+          height: 100%;
+          width: 10%;
+          background-color: black;
+          color: blueviolet;
+        }
+    
+        
+        div{
+          position:relative;
+          float:left;
+        }
+        
+      </style>
+    </head>
+    
+    <body>
+      <div id="info">
+       Slider'ı kaydırın. Sayfa düzleminden içeri ile sayfa düzleminden dışarı arasında manyetik alanı değiştirin. Sonra da yük ateşleyin.
+       <p>Default range slider:</p>
+       <input type="range" aria-orientation="vertical" min="-20" max="20" value="10">
+      </div>
+
+      <div id="myCanvas"> </div>
+    
+    </body>
+    
+    </html>
